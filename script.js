@@ -237,5 +237,10 @@ function gameOverScreen() {
         ctx.fillStyle = "white";
         ctx.font = "100px Helvetica Neue";
         ctx.fillText(text, board.width / 2 - 100, board.height / 2, 200);
+        document.getElementById("new-game-button").style.display = "flex";
     }
+}
+
+function refreshPage() {
+    location.reload();
 }
