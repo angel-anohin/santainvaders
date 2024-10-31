@@ -24,6 +24,27 @@ h1 {
     text-shadow: 5px 5px 5px red;
     
 }
+
+.new-game-button {
+  display: none;
+  position: absolute;        /* Абсолютно позициониране */
+  width: 100px;
+  height: 100px;
+  top: 200px;                 /* Разстояние от горния край */
+  left: 650px;                /* Разстояние от левия край */
+  padding: 50px 100px;        /* Размери на бутона */
+  font-size: 16px;
+  background-color: white;   /* Бял фон */
+  color: rgb(255, 0, 0);              /* Черен текст */
+  border: 1px solid rgb(0, 0, 0);   /* Черен контур */
+  border-radius: 5px;        /* Заоблени ъгли */
+  cursor: pointer;
+  font-size: 36px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;             /* Центриране по вертикала */
+  justify-content: center;         /* Центриране по хоризонтала */
+}
 @keyframes wave {
     0% {
       transform: translateY(20);
