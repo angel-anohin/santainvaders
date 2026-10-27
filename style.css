@@ -27,23 +27,23 @@ h1 {
 
 .new-game-button {
   display: none;
-  position: absolute;        /* Абсолютно позициониране */
+  position: absolute;        
   width: 100px;
   height: 100px;
-  top: 200px;                 /* Разстояние от горния край */
-  left: 650px;                /* Разстояние от левия край */
-  padding: 50px 100px;        /* Размери на бутона */
+  top: 200px;                 
+  left: 650px;                
+  padding: 50px 100px;        
   font-size: 16px;
-  background-color: white;   /* Бял фон */
-  color: rgb(255, 0, 0);              /* Черен текст */
-  border: 1px solid rgb(0, 0, 0);   /* Черен контур */
-  border-radius: 5px;        /* Заоблени ъгли */
+  background-color: white;   
+  color: rgb(255, 0, 0);              
+  border: 1px solid rgb(0, 0, 0);   
+  border-radius: 5px;        
   cursor: pointer;
   font-size: 36px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
-  align-items: center;             /* Центриране по вертикала */
-  justify-content: center;         /* Центриране по хоризонтала */
+  align-items: center;             
+  justify-content: center;         
 }
 @keyframes wave {
     0% {
